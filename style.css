@@ -1,3 +1,15 @@
 body{
- background-color:#ADD8E6;    
+ background-color:#ADD8E6;
+}
+.title{
+ text-align: center;
+    font-family: 'Crimson Pro', serif;
+    color: #152852;
+    font-size:35px
+}
+.quote{
+ text-align: center;
+    font-family: 'Crimson Pro', serif;
+    color: #152852;
+    font-size:25px
 }
