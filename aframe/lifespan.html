@@ -6,13 +6,78 @@
     <a-scene>
     <a-assets>
         <img id="groundTexture" src="../img/floor.jpg">
-        
+
         <img id="skyTexture" src="../img/wall.jpg">
-        
+
     </a-assets>
       <a-sky id="background" src="#skyTexture" theta-length="100" radius=40 repeat="5 2"></a-sky>
-      
+
       <a-cylinder id="ground" src="#groundTexture" radius="40" height="4" position=" 0 -4 0" repeat="5 5"></a-cylinder>
+
+
+      <!--small body-->
+      <a-sphere radius="0.5" position="-4 1.5 -13" ></a-sphere>
+      <a-cone position="-4 0.5 -13" radius-bottom="0.5" radius-top="0.25" height="1.5" ></a-cone>
+      <a-cylinder  radius="0.25" height="1.5" position="-4.25 -1 -13"></a-cylinder>
+      <a-cylinder  radius="0.25" height="1.5" position="-3.75 -1 -13"></a-cylinder>
+
+      <!--body-->
+      <a-sphere radius="0.75" position="-1 2.5 -13" ></a-sphere>
+      <a-cone position="-1 1.5 -13" radius-bottom="0.75" radius-top="0.25" height="3" ></a-cone>
+      <a-cylinder  radius="0.25" height="2" position="-1.25 0 -13"></a-cylinder>
+      <a-cylinder  radius="0.25" height="2" position="-0.75 0 -13"></a-cylinder>
+
+      <!--older body-->
+      <a-sphere radius="0.65" position=" 2 2 -13" ></a-sphere>
+      <a-cone position=" 2 1 -13" radius-bottom="0.75" radius-top="0.25" height="2" ></a-cone>
+      <a-cylinder  radius="0.25" height="1.75" position=" 2.25 -0.5 -13"></a-cylinder>
+      <a-cylinder  radius="0.25" height="1.75" position=" 1.75 -0.5 -13"></a-cylinder>
+
+      <!--Room-->
+      <a-box  material="shader: flat; color:#3d3635 " depth="15" height="2" width="9"  position="-1 -2 -13" rotation="0 90 0"></a-box>
+      <a-box  material="shader: flat; color:#ADD8E6" depth="15" height="0.75" width="5"  position="-1 1.25 -17.25" rotation="0 90 90"></a-box>
+      <a-box  material="shader: flat; color:#ADD8E6" depth="9" height="0.75" width="5"  position="-8.5 1.25 -13.25" rotation="0 0 90"></a-box>
+      <a-box  material="shader: flat; color:#ADD8E6" depth="9" height="0.75" width="5"  position="6 1.25 -13.25" rotation="0 0 90"></a-box>
+
+      <!--filler walls-->
+      <a-box material="shader: flat; color:#ADD8E6" depth="14.6" height="0.75" width="10"  position="-8.5 -2 -1.5" rotation="0 0 90"></a-box>
+      <a-box material="shader: flat; color:#ADD8E6" depth="14.6" height="0.75" width="10"  position="6 -2 -1.5" rotation="0 0 90"></a-box>
+      <a-box material="shader: flat; color:#5C4033" depth="15" height="0.5" width="17"  position="-1 -2 0" rotation="0 90 0"></a-box>
+
+      <!--text-->
+
+      <a-plane color="black" height="1" width="2" text="value: The life expectancy of an average human is around 77.8 years.;" scale="3 3 3 " position="-7.8 0.5 -1" rotation="0 90 0"></a-plane>
+      <a-plane color="black" height="1" width="2" text="value: The life expectancy of an average human is around 77.8 years.;" scale="3 3 3 " position="5.2 0.5 -1" rotation="0 270 0"></a-plane>
+
+
+      <!--room-->
+      <a-box  material="shader: flat; color:#3d3635 " depth="15" height="2" width="9"  position="-1 -2 10" rotation="0 90 0"></a-box>
+      <a-box  material="shader: flat; color:#ADD8E6" depth="15" height="0.75" width="5"  position="-1 1.25 14.25" rotation="0 90 90"></a-box>
+      <a-box  material="shader: flat; color:#ADD8E6" depth="9" height="0.75" width="5"  position="-8.5 1.25 10.25" rotation="0 0 90"></a-box>
+      <a-box  material="shader: flat; color:#ADD8E6" depth="9" height="0.75" width="5"  position="6 1.25  10.25" rotation="0 0 90"></a-box>
+
+      <!--small body-->
+      <a-sphere radius="0.5" position="-4 1.5 10" ></a-sphere>
+      <a-cone position="-4 0.5 10" radius-bottom="0.5" radius-top="0.25" height="1.5" ></a-cone>
+      <a-cylinder  radius="0.25" height="1.5" position="-4.25 -1 10"></a-cylinder>
+      <a-cylinder  radius="0.25" height="1.5" position="-3.75 -1 10"></a-cylinder>
+
+
+
+      <!--body-->
+      <a-sphere radius="0.75" position="-1 2.5 10" ></a-sphere>
+      <a-cone position="-1 1.5 10" radius-bottom="0.75" radius-top="0.25" height="3" ></a-cone>
+      <a-cylinder  radius="0.25" height="2" position="-1.25 0 10"></a-cylinder>
+      <a-cylinder  radius="0.25" height="2" position="-0.75 0 10"></a-cylinder>
+
+      <!--older body-->
+      <a-sphere radius="0.65" position=" 2 2 10" ></a-sphere>
+      <a-cone position=" 2 1 10" radius-bottom="0.75" radius-top="0.25" height="2" ></a-cone>
+      <a-cylinder  radius="0.25" height="1.75" position=" 2.25 -0.5 10"></a-cylinder>
+      <a-cylinder  radius="0.25" height="1.75" position=" 1.75 -0.5 10"></a-cylinder>
+
+
+
 
     </a-scene>
   </body>
