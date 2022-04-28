@@ -37,31 +37,32 @@
             </div>
           </div>
         </nav> 
-    <!--title-->    
-    <div>
-      <p class="title">medical practice through time</p>
-      <p class="quote">“Wherever the art of Medicine is loved, there is also a love of Humanity.”</p>
+    <!--title--> 
+    <div class="container-fluid titlebg">
+      <div class="container">
+        <p class="title">Medical practice through time</p>
+        <p class="quote">“Wherever the art of Medicine is loved, there is also a love of Humanity.”</p>
+      </div>  
     </div>  
-      
     <!--end of title-->
     <!--overveiw-->
-    <div class="container">    
-      <h id="overview">Overview</h>
-      <p>Medical practice is the act of for the purpose of protecting the health, safety, and welfare of healthcare consumers through proper licensing and regulation of physicians and other health care practitioners. 
+    <div class="container overview">    
+      <h5>Overview</h5>
+      <p class="hometext ">Medical practice is the act of for the purpose of protecting the health, safety, and welfare of healthcare consumers through proper licensing and regulation of physicians and other health care practitioners. 
          Medical practice has been around since the 6000 thousand but Modern medicine started to emerge after the Industrial Revolution in the 18th century</p>
     </div>    
     <!--end of overveiw-->
     <div class="container">    
-      <h>Medicals Tool used today</h>
+      <p class="label">Medicals Tool used today</p>
     </div>
     
     <!--start of colpase-->
     <div class="container">
-      <p>
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#software" role="button" aria-expanded="false" aria-controls="software">Toggle Software</a>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#hardware" aria-expanded="false" aria-controls="hardware">Toggle Hardware</button>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="software hardware">Toggle both</button>
-      </p>
+      <div class="row homeinfo">
+        <a class="btn btn-primary col-5" data-bs-toggle="collapse" href="#software" role="button" aria-expanded="false" aria-controls="software">Toggle Software</a>
+        <button class="btn btn-info col-2" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="software hardware">Toggle both</button>
+        <button class="btn btn-primary col-5" type="button" data-bs-toggle="collapse" data-bs-target="#hardware" aria-expanded="false" aria-controls="hardware">Toggle Hardware</button>
+      </div>
       <div class="row">
         <div class="col">
           <div class="collapse multi-collapse" id="software">
@@ -94,7 +95,9 @@
    <!--end of colpased--> 
     
     <div class="container">
-      <a class="btn btn-secondary btn-sm" href="idea.html" role="button">future medical ideas</a>
+      <div class="row">
+      <a class="btn btn-secondary btn-sm col-4 toidea" href="idea.html" role="button">future medical ideas</a>
+      </div>
     </div>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
