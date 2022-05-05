@@ -22,7 +22,8 @@ color:#5b0e2d;
     color: #152852;
     font-size:35px;
     margin:10px;
-    
+    padding-top:20px;
+    padding-bottom:20px;
 }
 .titlebg{
  background-color:#ffa368;
@@ -50,7 +51,7 @@ margin: auto;
  border-width: medium;
  border-color: #5b0e2d;
  border-radius: 5px;
- padding:10px;
+ padding:15px;
 }
 
 a-scene {
@@ -80,4 +81,28 @@ li{
 .ideaheader{
  margin-top:5px;
  margin-bottom:5px;
+}
+
+.img{
+ width:400px;
+ height:300px;
+ border-radius:30%;
+ padding:10px 10px;
+ border:2px dashed white;
+ margin-left:30px;
+ margin-right:30px;
+ margin-bottom:35px;
+}
+.imgdiv {
+ text-align: center;
+}
+}
+@media (max-width:576px) {
+ .img {
+  width: 100px;
+  height: 50px;
+ }
+ .imgdiv {
+  text-align: center;
+ }
 }
